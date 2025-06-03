@@ -1,4 +1,4 @@
-QuantLib-Python>=1.32.0
-pandas>=1.5.0
-pytest>=7.0.0
-apache-airflow>=2.5.0
+QuantLib-Python
+pandas
+pytest
+apache-airflow
