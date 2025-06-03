@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+.env
+.ipynb_checkpoints
+data/corra_fixings.csv
+output/
+airflow_logs/
