@@ -31,7 +31,7 @@ def parse_corra_raw(
 
     observations_idx = None
     for idx, line in enumerate(lines):
-        if line.strip().upper() == "\"OBSERVATIONS\"":
+        if line.strip().strip('"').upper() == "OBSERVATIONS":
             observations_idx = idx
             break
     if observations_idx is None:
